@@ -1,0 +1,92 @@
+.headerHeading1 {
+    color: rgb(30, 93, 132);
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0px;
+  }
+  .header1{
+    background-color: #FFE17F;
+  }
+  #DeleteButton{
+    background-color: white;
+    color: red;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bold;   
+    margin-right: 10px;
+}
+#DeleteButton:hover{
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bold;   
+    margin-right: 10px;   
+}
+#UpdateButton{
+    background-color: white;
+    color: #488A99;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #488A99;
+    border-radius: 5px;
+    font-weight: bold;   
+    margin-right: 10px;
+}
+#UpdateButton:hover{
+    background-color: #488A99;
+    color: white;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #488A99;
+    border-radius: 5px;
+    font-weight: bold;   
+    margin-right: 10px;   
+}
+
+#HomeButton{
+    background-color: white;
+    color: #488A99;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #488A99;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#HomeButton:hover{
+    background-color: #488A99;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.PaginationButtons{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .PaginationButtons a{
+    margin: 15px;
+    border: 1px solid #488A99;
+    padding: 10px;
+    color: #488A99;
+    text-decoration: none;
+  }
+  .PaginationButtons a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #488A99;
+  }

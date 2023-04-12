@@ -1,0 +1,131 @@
+.checkDiv{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dogDiv{
+    display: inline-block;
+    width: 150px;
+    height:auto;  
+}
+#WorkingDogLabel{
+    font-weight: bold;
+}
+.main-div1{
+
+    background-image: url("../../images/punch.jpeg");
+    background-size: cover;
+}
+h4{
+    color: #1E5D84;
+    font-size: 18px;
+    font-weight: 700;
+}
+.form-check-label{
+    font-size: 18px;
+    
+}
+#workingDog{
+    height: 25px;
+    width: 25px;
+    accent-color:#1E5D83;
+}
+.headerPera{
+    color: #1E5D83;
+font-size: 16px;    
+font-weight: 600;
+}
+.peraDis{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1E5D84;
+}
+.dogSize{
+
+    width: 120px;
+}
+.dog4Size{
+
+    width: 140px;
+}
+.dog5Size{
+
+    width: 80px;
+    margin-right: 20px;
+}
+
+
+
+
+.selectedDog{
+    border: 2px solid #5D92B8;
+    border-radius: 5px;
+}
+
+
+.dogDis{
+   background-color:  #F0F0F0;
+}
+
+@media (max-width: 574px) {
+    
+
+}
+
+@media (max-width: 842px) {
+    .dogDiv{
+       
+        width: 100px;
+        height:auto;  
+        
+        
+    }
+    #imgRowId{
+        
+    }
+
+    .dogSize{
+
+        width: 80px;
+    }
+    .dog4Size{
+    
+        width: 100px;
+    }
+    .dog5Size{
+    
+        width: 60px;
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width: 574px) {
+    
+    .dogDiv{
+       
+        width: 50px;
+        height:auto;  
+       
+        
+        
+    }
+   
+
+    .dogSize{
+
+        width: 50px;
+    }
+    .dog4Size{
+    
+        width: 60px;
+    }
+    .dog5Size{
+    
+        width: 40px;
+        margin-right: 20px;
+    }
+
+}

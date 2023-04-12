@@ -1,0 +1,192 @@
+.headerStep3{
+    background-color: #FFE180;
+}
+.headingStep3{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1E5D84;
+
+}
+.step{
+    background-color: white;
+    color: #1E5D84;
+    font-size: 20px;
+    font-weight: 700;
+}
+.selectedCard{
+    padding-top: 10px;
+    background-color:#1E5D84 ;
+}
+.cardRow{
+    padding-top: 10px;
+    background-color: white;
+}
+
+
+.cardSection{
+    background-color: rgb(251, 248, 233);
+    
+    
+}
+
+
+ .content-col{
+    padding-left: 0px;
+    
+
+}
+.heading1{
+
+    margin-top: 14px;
+    color: #1E5D84;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.heading1Selected{
+
+    
+    margin-top: 14px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.heading2{
+    color: #1E5D84;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.heading2Selected{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.nasties{
+    background-color: #C9DBE8;
+    color: #1E5D84;
+    font-size: 16px;
+    font-weight:500;
+    padding: 6px;
+    border-radius: 5px;
+}
+#addBtn{
+    background-color: #e66c55;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    width: 96%;
+}
+#addBtn:hover{
+    background-color: #CC4B33;
+    color: white;
+    cursor: url(../../images/dogFoot1.svg), auto;
+
+}
+
+#removeBtn{
+    background-color: white;
+    color: #e66c55;
+    border:1px solid #e66c55;
+    font-size: 18px;
+    font-weight: 400;
+    width: 96%;
+}
+#removeBtn:hover{
+    background-color: rgb(251, 248, 233);
+    color: #e66c55;
+  cursor: url(../../images/dogFoot1.svg), auto;
+    
+
+}
+.del{
+    color: #5484A1;
+    font-size: 18px;
+    font-weight: 600;
+}
+.delSelected{
+    color: #D2DFE6;
+    font-size: 18px;
+    font-weight: 600;
+}
+.priceNow{
+    color: #D66F5C;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.cardPera{
+    color: #5DA3D4;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.cardPeraSelected{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.img-col {
+    
+    padding: 10px;
+    padding-top: 0px;
+    
+   }
+
+.badge{
+    background-color: #F2C4C4;
+    color: #CD5C4F;
+    font-size: large;
+
+
+}
+.imgContainer{
+    border-radius: 6px;
+    width: 100%;
+    height: 80%;
+    background-image: url(../../images/cardbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+
+    .imgContainer{
+        
+        border-radius: 6px;
+        width:100%;
+        height: 300px;
+        background-image: url(../../images/cardbg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .img-col {
+    
+     padding: 10px;
+     padding-top: 0px;
+    }
+    
+   
+
+    .content-col{
+        padding-left: 20px;
+        padding-right: 10px;
+
+    }
+    .heading1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .heading1Selected{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+  }

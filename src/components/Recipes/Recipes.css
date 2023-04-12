@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.4.1/css/all.css");
+
+ul.ks-cboxtags {
+    list-style: none;
+    padding: 30px;
+}
+ul.ks-cboxtags li{
+  display: inline;
+}
+ul.ks-cboxtags li label{
+    display: inline-block;
+    background-color: #b2ccde;
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #11486E;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    margin-right: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags li label {
+    padding: 6px 12px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+ul.ks-cboxtags li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    padding: 2px 6px 2px 2px;
+    /* content: "\f067"; */
+    content: "";
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
+    content: "\f00c";
+    transform: rotate(-360deg);
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+    /* border: 2px solid #94B8D1; */
+    background-color: #11486E;
+    color: white;
+    transition: all .5s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  display: absolute; 
+  position: absolute;
+  opacity: 0;
+}
+ul.ks-cboxtags li input[type="checkbox"]:focus + label {
+  /* border: 2px solid #e9a1ff; */
+}   
+.SpinButton {
+    list-style: none;
+    padding: 30px;
+}
+.SpinButton li{
+  display: inline;
+} 
+.SpinButton li label{
+    display: inline-block;
+    background-color: #b2ccde;
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #11486E;
+    white-space: nowrap;
+    font-size: 30px;
+    border-radius: 50%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+}
+
+.SpinButton li label {
+    padding: 6px 20px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.SpinButton li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 2px 6px 2px 2px;
+    content: "\f067";
+    transition: transform .3s ease-in-out;
+} 
+
+.SpinButton li input[type="checkbox"]:checked + label::before {
+    content: "\f00c";
+    font-size: 30px;
+    border-radius: 50%;
+    width: 30px;
+    display: inline-block;
+    height: 50px;
+    padding-right: 35px;
+    transform: rotate(-360deg);
+    transition: transform .3s ease-in-out;
+}
+
+.SpinButton li input[type="checkbox"]:checked + label {
+    
+    background-color: #11486E;
+    color: white;
+    transition: all .5s;
+}
+
+.SpinButton li input[type="checkbox"] {
+  display: absolute; 
+  position: absolute;
+  opacity: 0;
+}
+
+
+#A{
+    background-color: green;
+}
+#CardHeading{
+    font-weight: bold;
+    color: #11486E;
+}
+#CardText{
+    color: #11486E;
+    font-weight: normal;
+}
+#CenterPage{
+    background-color: #FBF8E9;
+}
+#DogDesc{
+    background-color: #FFE180;
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+#StepsRow{
+    background-color: white;
+    color: #11486E;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+#RecommendationHeading{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#CaloriesRow{
+    background-color: white;
+    color: #11486E;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    padding-top: 40px;
+    height: 150px;
+}
+#MealsSpecialityRow{
+    background-color: none;
+    color: #11486E;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+#Meals{
+    width: 55px;
+    height: 55px;
+}
+#LowerPage{
+    background-color: #FBEDB6;
+    color: #11486E;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    border-radius: 15px;
+    padding-top: 10px;
+    height: 420px;
+    font-family: 'Poppins', sans-serif;
+}
+.onCardClicked{
+    background-color: #11486E;
+    color: white;
+}
+.offCardClicked{
+    background-color: white;
+    color: #11486E;
+}
+#CardMealPic{
+    width: 380px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#CardsContainer{
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+#OtherRecipesHeading{
+    color: #11486E;
+    font-family: 'Poppins', sans-serif;
+}
+#FreqQuestionsHeading{
+    color: #11486E;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#LastSection{
+    background-color: white;
+}
+#QuestionButtonPlus1{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+#QuestionButtonMinus1{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+#QuestionButtonPlus2{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+#QuestionButtonMinus2{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+#QuestionButtonPlus3{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+#QuestionButtonMinus3{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+#QuestionButtonPlus4{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+#QuestionButtonMinus4{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+#QuestionButtonPlus5{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+#QuestionButtonMinus5{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+#Question1{
+    color: #11486E;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#Question2{
+    color: #11486E;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#Question3{
+    color: #11486E;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#Question4{
+    color: #11486E;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#Question5{
+    color: #11486E;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#Answer1{
+    color: #11486E;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+#Answer2{
+    color: #11486E;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+#Answer3{
+    color: #11486E;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+#Answer4{
+    color: #11486E;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+#Answer5{
+    color: #11486E;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+#Line1{
+    width: auto;
+}
+#Line{
+    width: auto;
+}
+#Line3{
+    width: auto;
+}
+#Line4{
+    width: auto;
+}
+#Line5{
+    width: auto;
+}
+.StepsHeading{
+    background-color: white;
+    width:fit-content;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 45%;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    #RecommendationHeading{
+        margin-right: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .card{
+        margin-top: 40px;
+        height: 400px;
+    }
+    #CardMealPic{
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    #MealReccomendations{
+        width: 350px;
+        margin-left: 20px;
+    }
+    p{
+        font-size: small;
+    }
+    #CardMobileView{
+        width: 1rem;
+    }
+    #Line1{
+        width: auto;
+    }
+    #Line{
+        width: auto;
+    }
+    #Line3{
+        width: auto;
+    }
+    #Line4{
+        width: auto;
+    }
+    #Line5{
+        width: auto;
+    }
+    .StepsHeading{
+        background-color: white;
+        width:fit-content;
+        font-size: larger;
+        font-weight: bold;
+        padding: 5px;
+        margin-left: 35%;
+    }
+    
+}
+

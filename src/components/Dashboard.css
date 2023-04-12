@@ -1,0 +1,39 @@
+#NavlinkButtons{
+    color: rgb(30, 93, 132);
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 6px;
+}
+#NavlinkButtons:hover{
+    color: rgb(30, 93, 132);
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 20px;  
+    padding: 6px;
+    border-bottom: 4px solid #E66C55;
+}
+select{
+    background-color: #FFE17F;
+    border: none;
+}
+option{
+    background-color: #FFE17F;
+    font-size: medium;
+}
+
+#LogoutButton{
+    color: rgb(30, 93, 132);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 4px;
+    float: right;
+}
+#LogoutButton:hover{
+    color: rgb(30, 93, 132);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 4px;
+    border-bottom: 4px solid #E66C55;
+    float: right;
+}

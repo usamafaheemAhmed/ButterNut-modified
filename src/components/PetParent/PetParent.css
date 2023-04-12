@@ -1,0 +1,48 @@
+#LocationOptions{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #11486E;
+    color: #11486E;
+    font-weight: bold;
+}
+label{
+    color: #11486E;
+}
+#NameInput{
+    height: 50px;
+    border: 2px solid #11486E;
+    color: #11486E;
+    font-weight: bold;
+    box-shadow: none;
+}
+#EmailInput{
+    height: 50px;
+    border: 2px solid #11486E;
+    color: #11486E;
+    font-weight: bold;
+    box-shadow: none;
+}
+#AddressInput{
+    height: 50px;
+    border: 2px solid #11486E;
+    color: #11486E;
+    font-weight: bold;
+    box-shadow: none;
+}
+#Checkbox{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #11486E;
+    accent-color: #11486E;
+    float: right;
+}
+#CheckboxText{
+    font-size: medium;
+}
+#CheckLink{
+    color: #9fcce6;
+}
+#FreshFact1{
+    width: 80px;
+    height: 50px;
+}

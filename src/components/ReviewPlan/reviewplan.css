@@ -1,0 +1,290 @@
+.headerStep4{
+    background-color: #FFE180;
+}
+.headingStep4{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1E5D84;
+
+}
+.step{
+    background-color: white;
+    color: #1E5D84;
+    font-size: 20px;
+    font-weight: 700;
+}
+.introBox{
+    border: 0px;
+    color: #5D92B8;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 700;
+    
+
+}
+.introBoxSelected{
+    color: #1E5D84;
+    font-size: 24px;
+    font-weight: 700;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: white;
+    border-bottom: 6px solid #FFE180;
+
+}
+
+.afterIntro{
+    color: #5D92B8;
+    font-size: 24px;
+    font-weight: 700;
+    border: 0px;
+    background-color: white;
+    
+
+}
+.afterIntroSelected{
+    color: #1E5D84;
+    font-size: 24px;
+    font-weight: 700;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: white;
+    border-bottom: 6px solid #FFE180;
+
+}
+.week2Heading{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1e5d84;
+
+}
+.week3Heading{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1e5d84;
+
+}
+.week2Pera1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #1e5d84;
+
+}
+.img1{
+    width:30%;
+    
+    margin-bottom: 12px;
+}
+.imgPera{
+    font-size: 20px;
+    font-weight: 700;
+}
+.imgPera2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6295BF;
+}
+
+.beefContainer{
+   display: inline-block;
+    border: 2px solid red;
+    background-color: antiquewhite;
+}
+
+.beef{
+   width: 30%;
+}
+.imgDis{
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1e5d84;
+}
+
+.imgDis2{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1e5d84;
+}
+
+.imgDis3{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1e5d84;
+}
+
+.imgDis{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5d92b8;
+}
+.servingDis{
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5d92b8;
+}
+.recipes{
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e5d84;
+}
+
+.serving{
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #1e5d84;
+}
+.btn-link{
+    background-color: #ECF4F9;
+
+}
+
+#SimpleLine{
+    border:1px dashed  ;
+    width: 90%;
+}
+
+.hrChnge{
+    border:1px dashed  ;
+    width: 100%;
+    
+    
+}
+.spanChange{
+    background-color: #ECF4F9;
+    
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1e5d84;
+
+    
+}
+.promoBorder{
+    border: 2px dashed #5d92b8 ;
+}
+.percentOff{
+    padding: 5px;
+    background-color: #E66C55;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.totalSaving{
+    background-color: #F9EEEC;
+    color: #E66C55;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.promoInput{
+    display: inline-block;
+}
+.summaryData{
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #1e5d84;
+}
+.sumrypriceDel{
+    display: inline;
+    color: #5d92b8;
+}
+.sumryprice{
+    display: inline;
+    color: #1e5d84;
+
+}
+
+
+.flexContainer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.flexItem{
+    
+    /* border: 1px solid red;
+    background-color: #FFE180; */
+    
+    width: 70%;
+    
+}
+
+.mybeef{
+    width: 22%;
+}
+.myp{
+    display: inline-block;
+    font-size: 16px;
+}
+#Line1{
+    width: auto;
+}
+#Line{
+    width: auto;
+}
+#Line3{
+    width: auto;
+}
+#Line4{
+    width: auto;
+}
+#Line5{
+    width: auto;
+}
+
+#CardButton{
+    background-color: #1E5D84;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+@media only screen and (max-width: 988px) {
+
+    .spanChange{
+        
+        border-radius: 6px;
+        font-size: 10px;
+        font-weight: 500;
+        
+    
+        
+    }
+    /* .img1{
+        margin-top: 10px;
+        width:27%;
+        margin-bottom: 10px;
+    }
+
+    .imgPera{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .imgPera2{
+        font-size: 12px;
+        font-weight: 400;
+        color: #6295BF;
+        line-height: 20px;
+        
+        
+        
+    } */
+   
+  }

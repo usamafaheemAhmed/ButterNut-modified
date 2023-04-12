@@ -1,0 +1,44 @@
+#ViewOrderButton{
+    color: #E66C55;
+    border: 1px solid #E66C55;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+}
+#ViewOrderButton:hover{
+    color: white;
+    border: 1px solid #E66C55;
+    text-decoration: none;
+    background-color: #E66C55;
+    padding: 5px;
+}
+#ChangeOrderButton{
+    color: #E66C55;
+    border: 1px solid #E66C55;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+#ChangeOrderButton:hover{
+    color: white;
+    border: 1px solid #E66C55;
+    text-decoration: none;
+    background-color: #E66C55;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#OrderHead{
+    color: #E66C55;
+    font-weight: bold;
+    font-size: 40px;
+}
+.form-control{
+    border: 2px solid rgb(30, 93, 132);
+    color: rgb(30, 93, 132);
+    height: 50px;
+}
+label{
+    font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.dogDiv{
+    display: inline-block;
+    
+    width: 225px;
+    height: 525px;
+    margin-left: 10px;
+    padding: 3px;
+    
+}
+h4{
+    color: #1E5D84;
+    font-size: 18px;
+    font-weight: 700;
+}
+.headerPera{
+    color: #1E5D83;
+font-size: 16px;    
+font-weight: 600;
+}
+.peraDis{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1E5D84;
+}
+.dogSize{
+
+    width: 350px;
+}
+#colordog1{
+    width: 140px;
+}
+
+#sizeDog3{
+    width: 162px;
+}
+#sizeColorDog3{
+    width: 142px; 
+}
+
+.selectedDog{
+    border: 2px solid #5D92B8;
+    border-radius: 5px;
+}
+
+
+.dogDis{
+   background-color:  #F0F0F0;
+}

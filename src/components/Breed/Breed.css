@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.Shpac{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#A{    
+    font-weight: bold;
+    background-color: orange;
+}
+#BreedInput1{
+    border: 1px solid #11486E;
+    height: 60px;
+    font-size: large;
+    font-weight: bold;
+}
+#BreedCheckBox{
+    border: 1px solid #11486E;
+    width: 25px;
+    height: 25px;
+    accent-color: #11486E;
+    
+}
+#BreedBoxText{
+    color: #11486E;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    #FreshFact4{
+        width: 60px;
+        height: 40px;
+    }
+}
+
+
+
+
+/*the container must be positioned relative:*/
+.autocomplete {
+    position: relative;
+    display: inline-block;
+  }
+  
+  input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+  
+  input[type=submit] {
+    background-color: DodgerBlue;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+  }
+  
+  /*when navigating through the items using the arrow keys:*/
+  .autocomplete-active {
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
+  }

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#A{
+    background-color: yellowgreen;
+}
+#DogDesc{
+    color: #11486E;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.NoHealthIssues{
+    background-color: #94B8D1;
+    color: #11486E;
+    height: 50px;
+    width: 190px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-right: 10px;
+    border: none;
+}
+.NoHealthIssuesClicked{
+    background-color: #11486E;
+    color: white;
+    height: 50px;
+    width: 190px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-right: 10px;
+    border: none;
+}
+.SomeHealthIssues{
+    background-color: #94B8D1;
+    color: #11486E;
+    height: 50px;
+    width: 190px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border: none;
+}
+.SomeHealthIssuesClicked{
+    background-color: #11486E;
+    color: white;
+    height: 50px;
+    width: 190px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border: none;
+}
+#HealthIssuesInput{
+    height: 50px;
+    color: #11486E;
+    box-shadow: none;
+}
+.HealthIssuesFocused{
+    height: 50px;
+    color: #11486E;
+    border-bottom: 5px solid #11486E;
+}
+.HealthIssuesBlured{
+    height: 50px;
+    color: #11486E;
+}
+#FreshFact7{
+    width: 80px;
+    height: 50px;
+}
+
+#FreshFact h3 {
+    margin-top: 3%;
+}
+
+#FreshFact h3 b{
+    color: #85614D !important;
+}
+
+#FreshFact p{
+    margin-bottom: 10%;
+    color: #85614D !important;
+}
