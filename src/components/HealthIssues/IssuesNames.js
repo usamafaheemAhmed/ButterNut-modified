@@ -9,7 +9,8 @@ const IssuesNames = ({
   onSelect,
   optionKey = "label",
   optionCount = 5,
-  noOptionText = "No Items"
+  noOptionText = "No Items",
+  onSubmit,
 }) => {
   const [searchText, setSearchText] = useState("");
   const [selected, setSelected] = useState("");
@@ -25,6 +26,11 @@ const IssuesNames = ({
   }, [options]);
 
   const selectHandle = (val) => {
+    let e = val;
+    localStorage.setItem("SelectedDisease",e.name);
+    onSubmit(e.name);
+    console.log(document.getElementById("BreedInput").disable);
+    document.getElementById("BreedInput").disabled = true;
     setSearchText("");
     setSelected(val[optionKey]);
     if (onSelect) {
@@ -45,6 +51,7 @@ const IssuesNames = ({
       obj[optionKey]?.toLowerCase().includes(target.value?.toLowerCase())
     );
     setAllOption(tempOptions);
+   
   };
   function BreedChecked(){
   localStorage.setItem("Breed","dont know this breed");
@@ -62,15 +69,16 @@ const IssuesNames = ({
 
     }
   }
+ 
 
   return (
     <div className={styles.IssuesNames}>
        {/* Checkbox */}
-       <div class="row mt-3">
+       <div className="row mt-3">
        
-       <div class="col-md-12 text-center">
-       <div class="Shpac mb-2">
-          <input type="checkbox" id="BreedCheckBox" onClick={BreedChecked} />
+       <div className="col-md-12 text-center">
+       <div className="Shpac mb-2">
+          <input type="checkbox" id="BreedCheckBox" onClick={BreedChecked}  />
           <label id="BreedBoxText">I don't know health issues.</label>
         </div>
          

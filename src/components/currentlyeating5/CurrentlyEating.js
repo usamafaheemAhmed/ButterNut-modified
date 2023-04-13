@@ -49,7 +49,7 @@ let Validation = Event =>{
        </div>
           {/* header end */}
 
-          <h1 className="text-center mt-5">
+          <h1 className="text-center mt-5 h1Bold">
           ------------<span>{localStorage.getItem("dogName")}</span> eats.------------
           </h1>
 
@@ -59,22 +59,22 @@ let Validation = Event =>{
                 <ul className="ks-cboxtags">
                 <li>
                     <input type="checkbox" id="checkboxOne" value="Dry" name="currentlyEating"/>
-                    <label id="labelOne" for="checkboxOne">Dry</label>
+                    <label id="labelOne" for="checkboxOne" className='GTbuttons2'>Dry</label>
                 </li>
 
                 <li >
                     <input type="checkbox" id="checkboxTwo" value="Home-cooked" name="currentlyEating"/>
-                    <label id="labelOne" for="checkboxTwo">Home-cooked</label>
+                    <label id="labelOne" for="checkboxTwo"  className='GTbuttons2'>Home-cooked</label>
                 </li>
 
                 <li >
                     <input type="checkbox" id="checkboxThree" value="Wet" name="currentlyEating"/>
-                    <label id="labelOne" for="checkboxThree">Wet</label>
+                    <label id="labelOne" for="checkboxThree"  className='GTbuttons2'>Wet</label>
                 </li>
 
                 <li >
                     <input type="checkbox" id="checkboxFour" value="Raw" name="currentlyEating"/>
-                    <label id="labelOne" for="checkboxFour">Raw</label>
+                    <label id="labelOne" for="checkboxFour"  className='GTbuttons2'>Raw</label>
                 </li>
                 </ul>
                 </div>

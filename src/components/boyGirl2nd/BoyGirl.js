@@ -74,23 +74,23 @@ const BoyGirl = () => {
 
 
 
-        <h1 className="text-center mt-5">
+        <h1 className="text-center mt-5 h1Bold">
           --------------<span>{localStorage.getItem("dogName")}</span> is a good.--------------
         </h1>
        
        <div className="row mt-5">
          <div className="col-md-12 text-center">
-           <button className="btnDesign jello-horizontal" id="girlId" onClick={girlbtnHandler}> Girl</button>
-           <button className="btnDesign selectedbtn mx-3 jello-horizontal" id="boyId" onClick={boybtnHandler}> Boy</button>
+           <button className="btnDesign jello-horizontal GTbuttons" id="girlId" onClick={girlbtnHandler}> Girl</button>
+           <button className="btnDesign selectedbtn mx-3 jello-horizontal GTbuttons" id="boyId" onClick={boybtnHandler}> Boy</button>
          </div>
         </div>
 
 
        <div className="row my-5">
         <div className="col-md-12 text-center">
-           <p>and is <span id="forSex">he neutered</span>?</p>
-           <button className="btnDesign jello-horizontal" id="yesId" onClick={yesNeutered}> Yes</button>
-           <button className="btnDesign selectedbtn mx-3 jello-horizontal" id="noId" onClick={noNeutered}>No</button>
+           <p className="GtPara">and is <span id="forSex">he neutered</span>?</p>
+           <button className="btnDesign jello-horizontal GTbuttons" id="yesId" onClick={yesNeutered}> Yes</button>
+           <button className="btnDesign selectedbtn mx-3 jello-horizontal GTbuttons" id="noId" onClick={noNeutered}>No</button>
          </div>
        </div>
 
@@ -100,7 +100,7 @@ const BoyGirl = () => {
           
           <h3 className="freshFact">Fresh Fact</h3> 
           <img className="float-end" src={fish} alt="" />
-          <p className="p2">Did you know 2 in 3 Brits don't know what's in their dog food? We make it very clear - only the best human-quality meat, veg, vitamins and minerals your dog needs.</p>
+          <p className="p2">Did you know <span>2</span>  in <span>3</span> Brits don't know what's in their dog food? We make it very clear - only the best human-quality meat, veg, vitamins and minerals your dog needs.</p>
         </div>
         <div className="col-md-3"></div>
 

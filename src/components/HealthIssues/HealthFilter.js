@@ -16,7 +16,7 @@ const OPTION=[
     {name: "Epilepsy"}
     ];
 
-function HealthFilter() {
+function HealthFilter(props) {
     const handleSearch = (value, cb) => {
         // just to explian API call
         let tempOptions = [...OPTION, { name: "piyush" }];
@@ -26,13 +26,21 @@ function HealthFilter() {
         // setOptions
         cb(tempOptions);
       };
+
+      function gettingData2(data){
+        console.log("data is coming From issues Name class",data);
+        props.onSubmit(data);
+      }
+
   return (
     <div style={{ width: 300, margin: "auto" }}>
       <IssuesNames options={OPTION}
         noOptionText={"No Match Found"}
         onSearch={handleSearch}
         optionKey={"name"}
-        optionCount={5}/>
+        optionCount={5}
+        onSubmit={gettingData2}
+        />
     </div>
   )
 }

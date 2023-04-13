@@ -336,14 +336,14 @@ const DogWeight = () => {
        </div>
           {/* header end */}
 
-          <h1 className="text-center mt-5">
+          <h1 className="text-center mt-5 h1Bold">
           ------------<span>{localStorage.getItem("dogName")}</span> weighs about.------------
           </h1>
 
           <div className="row mt-4">
             <div className="col-md-12">
               <div className='text-center'>
-                <input type="text" id='shpac' className='form-control text-center input-box' placeholder='50'/><span className='mx-1'>Kg</span>
+                <input type="text" id='shpac' className='form-control text-center input-box' placeholder='50'/><span className='mx-1 GtPara'>Kg</span>
               </div>
 
             </div>
@@ -391,14 +391,14 @@ const DogWeight = () => {
              
             {/*<span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0Kg</span>*/}
             
-            <span className='startWight'>0Kg</span>
+            <span className='startWight GtPara'>0Kg</span>
             <input onChange={changeRampUpHire} type="range" class=" mx-2 pt-3 " from='1' min="1" max="50" step="1" id="customRange3" />
 
-            <span className='startWight2'>50Kg+</span>
+            <span className='startWight2 GtPara'>50Kg+</span>
 
 
 
-            <h6 className='text-center mt-2'>Use the slider above to give us her approximate weight.</h6>
+            <h6 className='text-center mt-2 GtPara'>Use the slider above to give us her approximate weight.</h6>
             </div>
           </div>
 

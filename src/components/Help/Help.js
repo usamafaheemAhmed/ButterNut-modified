@@ -25,7 +25,7 @@ function Help() {
       <div class="row mt-5">
         <div class="col-md-2"></div>
         <div class="col-md-8 text-center">
-          <p id="Header">-------------<span>{localStorage.getItem("dogName")}</span> is.-------------</p>
+          <p id="Header" className='h1Bold'>-------------<span>{localStorage.getItem("dogName")}</span> is.-------------</p>
         </div>
         <div class="col-md-2"></div>
       </div>

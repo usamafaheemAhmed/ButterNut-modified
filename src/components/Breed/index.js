@@ -72,7 +72,7 @@ const AutoComplete = ({
        <div class="col-md-12 text-center">
          <div class="Shpac mb-2">
           <input type="checkbox" id="BreedCheckBox" onClick={BreedChecked} />
-          <label id="BreedBoxText">I don't know his breed</label>
+          <label id="BreedBoxText" className='GtPara'>I don't know his breed</label>
         </div>
 
        </div>

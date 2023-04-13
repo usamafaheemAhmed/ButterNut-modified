@@ -2,6 +2,69 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
+
+  .h1Bold , .h1Bold span, .h1Bold p , .h1Bold p strong{
+    font-family: "cooper Hewitt" !important;
+    font-weight: 500;
+    line-height: 54px;
+    font-style: normal;
+  }
+  .GTbuttons {
+    font-family: 'gt-pressura-regular' !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+  } 
+
+  .GTbuttons p ,.GTbuttons p strong{
+    font-family: 'gt-pressura-regular' !important;
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    letter-spacing: 1px !important;
+  } 
+
+  .GTbuttons2, .GTbuttons2 label{
+    font-family: 'gt-pressura-regular' !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+  } 
+  .GTbuttons3, .GTbuttons3 label{
+    font-family: 'gt-pressura-regular' !important;
+    font-weight: 600 !important;
+    font-size: 19px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .headerPera1{
+    font-family: 'gt-pressura-regular' !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .GtPara , .GtPara span , .GtPara label{
+    font-family: 'gt-pressura-regular' !important;
+    font-weight:bold !important;
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .GTbuttons2 p b{
+    font-family: "cooper Hewitt";
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  
+  .GTbuttons2 p{
+    font-family: 'gt-pressura-regular' !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    letter-spacing: 0px !important;
+    color: #5D92BC;
+  }
+
 h1 {
   font-size: 20px;
   line-height: 30px;
@@ -11,7 +74,6 @@ h1 {
 
 .btnDesign {
   border: 0px solid;
-  font-weight: 600;
   border-radius: 50rem;
 
   width: 80px;
@@ -113,3 +175,31 @@ p {
             transform: scale3d(1, 1, 1);
   }
 }
+
+
+.freshRow .p2 {
+  font-family: "gt-pressura-regular" !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  font-style: normal;
+}
+ .freshRow .p2 span {
+  font-family: "gt-pressura-regular" !important;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  font-style: normal;
+}
+
+.badge{
+  color:#ffff !important;
+  border-radius: 25px;
+  margin: 5px auto;
+
+}
+
+.BadgeGap{
+  margin-top: 70px !important;
+}
+

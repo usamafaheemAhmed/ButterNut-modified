@@ -77,6 +77,7 @@
 }
 #EasyRecievingLabel{
     cursor: pointer;
+  
 }
 #SpecialNeedsLabel{
     cursor: pointer;
@@ -86,4 +87,9 @@
 }
 #TastyFoodLabel{
     cursor: pointer;
+}
+
+.GTbuttons2 label {
+  letter-spacing: 0px !important;
+  font-size: medium !important;
 }

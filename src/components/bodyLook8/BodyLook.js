@@ -106,7 +106,7 @@ const BodyLook = () => {
 
          
 
-          <h1 className="text-center mt-5">
+          <h1 className="text-center mt-5 h1Bold">
           ------------<span>{localStorage.getItem("dogName")}</span> is.------------
           </h1>
 
@@ -139,16 +139,16 @@ const BodyLook = () => {
           <div className="row " id='mainDivDis'>
             <div className="col-md-3"></div>
             <div className="col-md-6 dogDis text-center py-3 ">
-              <div id='skinnyDis' className='d-none'>
+              <div id='skinnyDis' className='d-none h4aP'>
               <h4>A little skinny</h4>
               <p className='peraDis'>Narrow waistline and you can clearly see her ribs. </p>
               </div>
-              <div id='justRightDis' className=''>
+              <div id='justRightDis' className='h4aP'>
               <h4>Just right</h4>
               <p className='peraDis'>Visible waistline with some fat cover but her ribs are easy to feel.</p>
               </div>
 
-              <div id='chubbyDis' className='d-none'>
+              <div id='chubbyDis' className='d-none h4aP'>
               <h4>A bit chubby</h4>
               <p className='peraDis'>Waistline is not visible and her ribs are tricky to feel.</p>
               </div>

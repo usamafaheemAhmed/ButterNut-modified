@@ -102,7 +102,7 @@ function Eater() {
       <div class="row mt-5">
         <div class="col-md-2"></div>
         <div class="col-md-8 text-center">
-          <p id="Header">-------------<span>{localStorage.getItem("dogName")}</span> is.-------------</p>
+          <p id="Header" className='GTbuttons2'>-------------<span>{localStorage.getItem("dogName")}</span> is.-------------</p>
         </div>
         <div class="col-md-2"></div>
       </div>
@@ -117,7 +117,7 @@ function Eater() {
                 </div>
                 <div class="col-md-11">
                 <div class="row p-0 m-0">
-                <label id="FoodieLabel" htmlFor="FoodieRadio"> <p><b>A Foodie</b> <br /> Loves eating just about anything </p></label>
+                <label id="FoodieLabel" htmlFor="FoodieRadio"  className='GTbuttons2'> <p><b>A Foodie</b> <br /> Loves eating just about anything </p></label>
                 </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@ function Eater() {
                 </div>
                 <div class="col-md-11">
                 <div class="row p-0 m-0">
-                <label id="GoodEaterLabel" htmlFor="GoodEaterRadio"><p><b>A Good Eater</b> <br /> Knows that what he likes and isn't adventorous with foods</p></label>
+                <label id="GoodEaterLabel" htmlFor="GoodEaterRadio"  className='GTbuttons2'><p><b>A Good Eater</b> <br /> Knows that what he likes and isn't adventorous with foods</p></label>
                 </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@ function Eater() {
                 </div>
                 <div class="col-md-11">
                 <div class="row p-0 m-0">
-                <label id="FussyLabel" htmlFor="FussyRadio"><p><b>Can be Fussy</b> <br />Abandons his meals sometimes</p></label>
+                <label id="FussyLabel" htmlFor="FussyRadio"  className='GTbuttons2'><p><b>Can be Fussy</b> <br />Abandons his meals sometimes</p></label>
                 </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@ function Eater() {
                 </div>
                 <div class="col-md-11">
                 <div class="row p-0 m-0">
-                <label id="VeryFussyLabel" htmlFor="VeryFussyRadio"><p><b>Very Fussy</b> <br />Repeatedly refuses meals</p></label>
+                <label id="VeryFussyLabel" htmlFor="VeryFussyRadio"  className='GTbuttons2'><p><b>Very Fussy</b> <br />Repeatedly refuses meals</p></label>
                 </div>
                 </div>
             </div>

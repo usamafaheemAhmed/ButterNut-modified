@@ -101,7 +101,7 @@ function Goals() {
       <div class="row mt-5">
         <div class="col-md-2"></div>
         <div class="col-md-8 text-center">
-          <p id="Header">-------------<span>{localStorage.getItem("dogName")}</span> is.-------------</p>
+          <p id="Header" className='h1Bold'>-------------<span>{localStorage.getItem("dogName")}</span> is.-------------</p>
         </div>
         <div class="col-md-2"></div>
       </div>
@@ -116,8 +116,8 @@ function Goals() {
                     <input type="radio" id="EasyRecievingRadio" name="EaterType" onClick={EasyRecievingSelector}/>
                 </div>
                 <div class="col-md-11">
-                <div class="row p-0 m-0">
-                    <label id="EasyRecievingLabel" htmlFor='EasyRecievingRadio'>The ease of ordering it and recieving it (just when I need it)</label>
+                <div class="row p-0 m-0 GTbuttons2">
+                    <label id="EasyRecievingLabel" htmlFor='EasyRecievingRadio' >The ease of ordering it and recieving it (just when I need it)</label>
                 </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@ function Goals() {
                     <input type="radio" id="SpecialNeedsRadio" name="EaterType" onClick={SpecialNeedsSelector}/>
                 </div>
                 <div class="col-md-11">
-                <div class="row p-0 m-0">
+                <div class="row p-0 m-0 GTbuttons2">
                     <label id="SpecialNeedsLabel" htmlFor='SpecialNeedsRadio'>The food meets his special health needs</label>
                 </div>
                 </div>
@@ -152,7 +152,7 @@ function Goals() {
                     <input type="radio" id="BestIngredientsRadio" name="EaterType" onClick={BestIngredientsSelector}/>
                 </div>
                 <div class="col-md-11">
-                <div class="row p-0 m-0">
+                <div class="row p-0 m-0 GTbuttons2">
                     <label id="BestIngredientsLabel" htmlFor='BestIngredientsRadio'>The food contains the best ingredients for <span>{localStorage.getItem("dogName")}</span></label>
                 </div>
                 </div>
@@ -170,7 +170,7 @@ function Goals() {
                     <input type="radio" id="TastyFoodRadio" name="EaterType" onClick={TastyFoodSelector}/>
                 </div>
                 <div class="col-md-11">
-                <div class="row p-0 m-0">
+                <div class="row p-0 m-0 GTbuttons2">
                     <label id="TastyFoodLabel" htmlFor='TastyFoodRadio'><span>{localStorage.getItem("dogName")}</span> loves the taste of food and is happy to eat it.</label>
                 </div>
                 </div>

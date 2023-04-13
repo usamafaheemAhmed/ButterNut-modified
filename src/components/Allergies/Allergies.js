@@ -93,7 +93,7 @@ function Allergies() {
         <div className="col-md-2"></div>
         <div className="col-md-8">
         <h3 className='text-center headerHeading'>Are you aware of any allergies?</h3>
-        <p className='headerPera1 text-center'>Even though our meals are hypoallergenic with no added wheat, maize, soy or mystery ingredients, we like to make sure all recipes are right for your pooch</p>
+        <p className='headerPera1 text-center'> Even though our meals are hypoallergenic with no added wheat, maize, soy or mystery <br/> ingredients, we like to make sure all recipes are right for your pooch</p>
         </div>
         <div className="col-md-2"></div>
        </div>
@@ -105,7 +105,7 @@ function Allergies() {
       {/* Dog Name */}
       <div class="row mt-5">
         <div class="col-md-2"></div>
-        <div class="col-md-8 text-center">
+        <div class="col-md-8 text-center h1Bold">
           <p id="Header">----------<span>{localStorage.getItem("dogName")}</span> is alergic to.----------</p>
         </div>
         <div class="col-md-2"></div>
@@ -115,7 +115,7 @@ function Allergies() {
       <div class="row mt-3" id="AllergyRow">
         <div class="col-md-3"></div>
         <div class="col-md-6 text-center">
-        <ul class="ks-cboxtags SpinOption">
+        <ul class="ks-cboxtags SpinOption GTbuttons3">
                 <li>
                     <input type="checkbox" id="checkboxOne" value="Nothing" onClick={()=>{setShow1(false); NothingFunction()}}/>
                     <label id="labelOne" for="checkboxOne">Nothing</label>
@@ -178,7 +178,7 @@ function Allergies() {
       {/* Checkbox */}
       <div class="row mt-3 mb-5">
         <div class="col-md-3"></div>
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-center GtPara">
           <input type="checkbox" id="AllergyCheckBox" onClick={()=>{setShow1(false); AllergiesDiv()}} />
           <label id="AllergyBoxText">I'm not sure yet</label>
         </div>
@@ -189,7 +189,7 @@ function Allergies() {
         <div class="col-md-3"></div>
         <div class="col-md-6">
           <Alert show={show1} className='alert2'>
-            <div className='col-md-12 px-3 pt-3'>
+            <div className='col-md-12 px-2 pt-3 GTbuttons '>
             <p> <strong>Uh oh... </strong> <br/>
 
             It looks like puck is allergic to all our proteins. Get in touch with our friendly <br/>

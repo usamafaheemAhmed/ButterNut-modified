@@ -105,7 +105,7 @@ const [buttonState, setButtonState] = useState(0);
             <div className="form-card mt-5 mb-2">
               <div className="card shadow-sm border-0 cardFirstPage">
                 <div className="card-body">
-                  <label htmlFor="" className="nameLabel mb-1">
+                  <label htmlFor="" className="nameLabel mb-2">
                     My dog is called... 
                   </label>
 
@@ -211,7 +211,7 @@ const [buttonState, setButtonState] = useState(0);
           
           <h3 className="freshFact">Fresh Fact</h3> 
           <img className="float-end" src={carrot} alt="" />
-          <p className="p2  ">The story of Butternut Box begins with a farting Staffie called Rudie. Only home-cooked meals could help her terrible farts, and the rest, as they say, is history.</p>
+          <p className="p2"><strong>The story of Butternut Box begins with a farting Staffie called Rudie. Only home-cooked meals could help her terrible farts, and the rest, as they say, is history.</strong></p>
         </div>
         <div className="col-md-3"></div>
 
@@ -220,7 +220,7 @@ const [buttonState, setButtonState] = useState(0);
 {/* footer */}
 <div className="footer shadow  text-center py-4">
     
-    <NavLink to='/Gender' type="button" className="btn px-5 start-btn" onClick={Validation}>LET'S START</NavLink>
+    <NavLink to='/Gender' type="button" className="btn px-3 py-2 start-btn" onClick={Validation}>LET'S START</NavLink>
 
 </div>
 

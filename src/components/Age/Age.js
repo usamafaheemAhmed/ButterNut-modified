@@ -99,7 +99,7 @@ function SeniorPuppyFunction(){
       <div className="row header py-5">
         <div className="col-md-2"></div>
         <div className="col-md-8">
-          <h3 className='text-center headerHeading'>How old is <span>{localStorage.getItem("dogName")}</span>?</h3>
+          <h3 className='text-center headerHeading '>How old is <span>{localStorage.getItem("dogName")}</span>?</h3>
         </div>
         <div className="col-md-2"></div>
       </div>
@@ -107,42 +107,42 @@ function SeniorPuppyFunction(){
       {/* Dog Name */}
       <div class="row mt-3">
         <div class="col-md-12 text-center">
-          <p id="Header">-----------<span>{localStorage.getItem("dogName")}</span> is.-----------</p>
+          <p className='h1Bold' id="Header">-----------<span>{localStorage.getItem("dogName")}</span> is.-----------</p>
         </div>
       </div>
 
       {/* Dog Type Buttons */}
       <div class="row mt-3">
-          <div class="col-md-12 text-center">
-            <button id="PuppyBtn" class="PuppyButton " onClick={PuppyFunction}>A puppy</button>
-            <button id="AdultPuppyBtn" class="AdultPuppyButton  mx-3" onClick={AdultPuppyFunction}>An adult</button>
-            <button id="SeniorPuppyBtn" class="SeniorPuppyButton " onClick={SeniorPuppyFunction}>A senior</button>
+          <div class="col-md-12 text-center ">
+            <button id="PuppyBtn" class="PuppyButton GTbuttons2" onClick={PuppyFunction}>A puppy</button>
+            <button id="AdultPuppyBtn" class="AdultPuppyButton  mx-3 GTbuttons2" onClick={AdultPuppyFunction}>An adult</button>
+            <button id="SeniorPuppyBtn" class="SeniorPuppyButton GTbuttons2" onClick={SeniorPuppyFunction}>A senior</button>
           </div>
       </div>
 
       {/* Age Input Boxes */}
       <div class="row mt-5">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center ">
           <input class="form-control text-center age" 
           placeholder='0' 
           type="number"
           id="PuppyInput1"
           onFocus={ShowInputs} onChange={()=>{SetAlertOption(true)}}/>
-          <label id="PuppyAge1"> months</label>
+          <label className='GtPara' id="PuppyAge1"> months</label>
           <input class="form-control text-center age" 
           placeholder='0'
           type="number"
           id="PuppyInput2"
           onFocus={ShowInputs} onChange={()=>{SetAlertOption(true)}}/>
-          <label id="PuppyAge2"> weeks</label>
+          <label  className='GtPara' id="PuppyAge2" > weeks</label>
         </div>
       </div>
 
       {/* Input Based check box */}
       
       <div class="row mt-5 " id="Show0">
-        <Alert show={AlertOption} variant='warning'>
-          <label id="CheckBoxText">
+        <Alert show={AlertOption} variant='warning' className='optionAlert'>
+          <label id="CheckBoxText"  className='GtPara' >
             <input type="checkbox" id="CheckBox"/>
             This is a guess. (puck is a rescue).
           </label>
@@ -153,8 +153,8 @@ function SeniorPuppyFunction(){
       {/* Checkbox */}
       <div class="row mt-5 " id="Show">
         <div class="col-md-12 text-center">
-          <label id="CheckBoxText">
-            <input type="checkbox" id="CheckBox"/>
+          <label id="CheckBoxText" className='GtPara' >
+            <input type="checkbox" id="CheckBox" />
           I haven't brought him home yet. Soon, very soon.
           </label>
         </div>

@@ -1,8 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './HealthIssues.css';
 import FreshFact7 from '../../images/FreshFact7.PNG';
 import { NavLink } from "react-router-dom";
 import HealthFilter from './HealthFilter';
+import { Badge } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons'
 
 function NoHealthIssueFunction(){
     document.getElementById("NoIssues").classList.add("NoHealthIssuesClicked");
@@ -12,6 +15,7 @@ function NoHealthIssueFunction(){
     document.getElementById("SomeIssues").classList.remove("SomeHealthIssuesClicked");
 
     document.getElementById("HealthIssuesInput").classList.add("d-none");
+    document.getElementById("addedDisease").classList.remove("BadgeGap");
 }
 
 function SomeHealthIssueFunction(){
@@ -22,13 +26,31 @@ function SomeHealthIssueFunction(){
     document.getElementById("NoIssues").classList.add("NoHealthIssues");
 
     document.getElementById("HealthIssuesInput").classList.remove("d-none");
+    
+    document.getElementById("addedDisease").classList.add("BadgeGap");
 }
 
 function HealthIssues() {
   var HealthIssueNames = "Nothing";
+  
+  let [disease, setDisease]=useState([]);
+
   useEffect(() => {
     localStorage.setItem("Health", HealthIssueNames);
-  });
+
+  },[]);
+
+
+  const gettingData = (data)=>{
+    console.log("data is coming From HealthFilter class",data);
+
+     let e={
+        id   :   1   ,
+        name: localStorage.getItem("SelectedDisease")
+      }
+      setDisease([...disease,e]);
+
+ }
   return (
     <div class="container-fluid">
  {/* header */}
@@ -45,7 +67,7 @@ function HealthIssues() {
       {/* Dog Name */}
       <div class="row mt-5">
         <div class="col-md-2"></div>
-        <div class="col-md-8 text-center">
+        <div class="col-md-8 text-center h1bold">
           <p id="Header">-------------<span>{localStorage.getItem("dogName")}</span> is.-------------</p>
         </div>
         <div class="col-md-2"></div>
@@ -55,15 +77,37 @@ function HealthIssues() {
       <div class="row mt-5">
         <div class="col-md-2"></div>
         <div class="col-md-8 text-center">
-          <button id="NoIssues" class="NoHealthIssuesClicked" onClick={NoHealthIssueFunction}>No health issues</button>
-          <button id="SomeIssues" class="SomeHealthIssues" onClick={SomeHealthIssueFunction}>Some health issues</button>
+          <button id="NoIssues" class="NoHealthIssuesClicked headerPera1" onClick={NoHealthIssueFunction}>No health issues</button>
+          <button id="SomeIssues" class="SomeHealthIssues headerPera1" onClick={SomeHealthIssueFunction}>Some health issues</button>
         </div>
         <div class="col-md-2"></div>
       </div>
       <div class="row mt-2  d-none" id="HealthIssuesInput">
         <div class="col-md-3"></div>
         <div class="col-md-6 text-center">
-        <HealthFilter />
+        <HealthFilter onSubmit={gettingData} />
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+
+      <div class="row mt-2 " id="addedDisease">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 text-center">
+        {
+          disease.map((disease)=>{
+          return(
+            <div className='row'>
+            <div className='col-md-3'></div>
+            <div className='col-md-6'>
+            <Badge>{disease.name}  <FontAwesomeIcon icon={faXmark} ></FontAwesomeIcon> </Badge>
+            </div>
+            <div className='col-md-3'></div>
+            </div>
+            
+          );
+        })
+      }
+
         </div>
         <div class="col-md-3"></div>
       </div>

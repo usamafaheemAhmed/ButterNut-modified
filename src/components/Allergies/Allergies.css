@@ -63,6 +63,7 @@ ul.ks-cboxtags li input[type="checkbox"]:checked + label {
     background-color: #11486E;
     color: white;
     transition: all .5s;
+    font-weight: 500 !important;
 }
 
 ul.ks-cboxtags li input[type="checkbox"] {
@@ -230,3 +231,10 @@ label{
     }
   }
   
+  .headerPera1{
+    font-family: 'gt-pressura-regular' !important;
+    font-weight: 500 !important;
+    font-size: 19px !important;
+    letter-spacing: 1px !important;
+
+  }

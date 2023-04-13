@@ -2,8 +2,14 @@
   font-family: "cooper Hewitt";
   src: url("../../fonts/cooper-hewitt/CooperHewitt-Semibold.otf"),
    url("../../fonts/cooper-hewitt/CooperHewitt-Semibold.otf") format("otf");
-
   }
+  @font-face {
+  font-family: "gt-pressura-regular";
+  src: url("../../fonts/OnlineWebFonts_COM_45a4e39ea847ac3a19708805ce47c92c/GT_Pressura_Regular/@font-face/2ea3b87b231d6d46708c756a0e04610e.ttf"),
+   url("../../fonts/OnlineWebFonts_COM_45a4e39ea847ac3a19708805ce47c92c/GT_Pressura_Regular/@font-face/2ea3b87b231d6d46708c756a0e04610e.ttf") format("ttf");
+  }
+
+
 
 
   
@@ -20,6 +26,13 @@
   line-height: 54px;
   font-style: normal;
 }
+.headerHeading span {
+  font-family: "cooper Hewitt";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  font-style: normal;
+}
 
 
 /* 1st screen dog name start */
@@ -28,7 +41,8 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-    font-family: "GT Pressura Regular";
+    font-family: "gt-pressura-regular";
+    font-style: normal;
  }
  .inputName{
    border:2px solid rgb(101, 151, 187);
@@ -69,8 +83,14 @@ color: #92B1C4;
  .anotherDogBtn{
    margin-top: 5px;
    color: rgb(30, 93, 132);
-   font-weight: 600;
+   /* font-weight: 600; */
+    /* line-height: 27px; */
+
+    font-size: 18px;
+    font-weight: 100;
     line-height: 27px;
+    font-family: "gt-pressura-regular";
+    font-style: normal;
    
  }
  #anotherDogBtn:hover{
@@ -83,7 +103,15 @@ color: #92B1C4;
    background-color: #e66c55;
    color: white;
    font-size: 18px;
-   font-weight: 100;
+   font-weight: 500;
+   line-height: 24px;
+   font-family: "gt-pressura-regular";
+   font-style: normal;
+   letter-spacing: 2.5px;
+
+   width: fit-content;
+
+   border-radius: 10px;
   
  }
  .start-btn:hover{
@@ -103,3 +131,22 @@ color: #92B1C4;
    
 
  /* 1st screen dog name end */
+
+
+
+ .freshRow .freshFact {
+  font-family: "cooper Hewitt";
+  font-weight: 500;
+  line-height: 36px;
+  font-style: normal;
+  font-size: 24px;
+ } 
+
+
+ .freshRow .p2  strong{
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  font-family: "gt-pressura-regular";
+  font-style: normal;
+ }

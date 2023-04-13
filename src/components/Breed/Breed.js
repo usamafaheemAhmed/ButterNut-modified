@@ -29,7 +29,7 @@ function Breed() {
       <div class="row mt-5">
         <div class="col-md-2"></div>
         <div class="col-md-8 text-center">
-          <p id="Header">-----------<span>{localStorage.getItem("dogName")}</span> is a.----------</p>
+          <p id="Header" className='GTbuttons2'>-----------<span>{localStorage.getItem("dogName")}</span> is a.----------</p>
         </div>
         <div class="col-md-2"></div>
       </div>
