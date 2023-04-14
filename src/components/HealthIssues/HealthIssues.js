@@ -99,9 +99,12 @@ function HealthIssues() {
             <div className='row'>
             <div className='col-md-3'></div>
             <div className='col-md-6'>
-            <Badge>{disease.name}  <FontAwesomeIcon icon={faXmark} ></FontAwesomeIcon> </Badge>
+            <Badge>{disease.name}  <FontAwesomeIcon icon={faXmark}  onClick={(e)=>{      
+              setDisease((current) => 
+              current.filter((disease) => disease.id !== disease.id));
+              document.getElementById("BreedInput").disabled = false; }}></FontAwesomeIcon> </Badge>
             </div>
-            <div className='col-md-3'></div>
+            <div className='col-md-3'></div> 
             </div>
             
           );
